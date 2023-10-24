@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" referrerpolicy="stylesheet" >
+  <style>
+     @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&display=swap');
+    </style>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+      </style>
+      <link rel="shortcut icon" href="https://raw.githubusercontent.com/9Yogesh9/Marvel-API/main/assests/images/M-favicon.png" type="image/x-icon" />
+      <link rel="stylesheet" href="styles.css" />
+  <title>marvel api</title>
+</head>
+<body>
+  <div id="top_container">
+   <div id="logo_container">
+      <a href="index.html">
+        <img src="https://raw.githubusercontent.com/9Yogesh9/Marvel-API/main/assests/images/Marvel_Logo.svg.png" alt="" srcset="" id="logo" />
+      </a>
+   </div>
+   <input type="text" name="search" id="search_text" placeholder="type to search" required >
+   <button type="submit" id="tosearch" onclick="show_results()" >search</button>
+   <a href="favourites.html" target="_blank" >
+     <button type="button" id="micro_fav_btn">Fav- 
+       <div id="micro_icon">
+        <img src="https://raw.githubusercontent.com/9Yogesh9/Marvel-API/main/assests/images/M-favicon.png" alt="" srcset="" >
+       </div>
+     </button>
+   </a>
+
+  </div>
+  <div class="major_container">
+     <div id="listHolder">
+     
+     </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
